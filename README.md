@@ -23,7 +23,7 @@ Run `carthage update` to build the framework and drag the built `EmptyKit.framew
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'EmptyKit'
+    pod 'EmptyKit', '~> 3.0.0'
 end
 ```
 
