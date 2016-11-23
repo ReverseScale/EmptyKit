@@ -11,7 +11,7 @@ A lightweight, swift library for displaying emptyView whenever the view(tableVie
 ##Carthage
 To integrate EmptyKit into your Xcode project using Carthage, specify it in your Cartfile:
 
-```swift
+```
 github "eilianlove/EmptyKit"
 ```
 
@@ -19,7 +19,7 @@ Run `carthage update` to build the framework and drag the built `EmptyKit.framew
 
 ##CocoaPods
 
-```swift
+```
 use_frameworks!
 
 target '<Your Target Name>' do
@@ -29,13 +29,14 @@ end
 
 Then, run the following command:
 
-```swift
+```
 $ pod install
 ```
 
 ## Usage
 
 ### import
+if you using carthage:
 
 ```swift
 import EmptyKit
