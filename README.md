@@ -5,6 +5,34 @@ EmptyKit
 [![License](http://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 A lightweight, swift library for displaying emptyView whenever the view(tableView/collectionView) has no content to display, just like [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet)
+
+## Installation
+
+##Carthage
+To integrate EmptyKit into your Xcode project using Carthage, specify it in your Cartfile:
+
+```swift
+github "eilianlove/EmptyKit"
+```
+
+Run `carthage update` to build the framework and drag the built `EmptyKit.framework` into your Xcode project.
+
+##CocoaPods
+
+```swift
+use_frameworks!
+
+target '<Your Target Name>' do
+    pod 'EmptyKit'
+end
+```
+
+Then, run the following command:
+
+```swift
+$ pod install
+```
+
 ## Usage
 
 ### import
